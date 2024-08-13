@@ -1,0 +1,18 @@
+.hero-container {
+    background-color: black;
+    height: 450px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-title {
+    color: white;
+    margin-left: 20px;
+}
+
+.carousel-section {
+    display: flex;
+    margin-right: 20px;
+}

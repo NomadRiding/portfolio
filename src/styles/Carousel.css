@@ -1,0 +1,22 @@
+.carousel-container {
+    display: flex;
+    height: 400px;
+    overflow: hidden;
+    width: 300px;    
+}
+
+.carousel-item {
+    align-items: center;
+    display: flex;
+    height: 20rem;
+    justify-content: center;
+    min-width: 100%;
+    padding: 30px;
+    transition: transform 0.8s ease-in-out;
+    width: 100%;
+    
+    img {
+        height: 350px;    
+    }
+
+}
