@@ -11,6 +11,50 @@
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
+    margin-left: 10px;
+}
+
+.nav-logo-link {
+    text-decoration: none;
+
+}
+
+.logo {
+    font-size: 50px;
+    color: #dde0de;
+    margin-left: 10px;
+    text-shadow: 
+    0 0 2px #fff,
+    0 0 10px #ffffffa8,
+    0 0 21px #f1e9e969,
+    0 0 32px rgb(214, 224, 170),
+    0 0 52px rgb(214, 224, 170),
+    0 0 72px rgb(214, 224, 170),
+    0 0 150px rgb(214, 224, 170);   
+}
+
+h2:hover {
+    color: #dde0de;
+    animation: flicker 1.5s infinite alternate;
+}
+
+
+
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+     
+    text-shadow: 
+    0 0 2px #fff,
+    0 0 10px #ffffffa8,
+    0 0 21px #f1e9e969,
+    0 0 32px rgb(214, 224, 170),
+    0 0 52px rgb(214, 224, 170),
+    0 0 72px rgb(214, 224, 170),
+    0 0 150px rgb(214, 224, 170);
+    }
+    20%, 24%, 55% {
+        text-shadow: none;
+    }
 }
 
 .link-container {
@@ -27,6 +71,7 @@
 }
 
 .nav-links {
+    color: green;
     text-decoration: none;
     margin: 10px;
     

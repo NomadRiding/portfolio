@@ -8,8 +8,15 @@
 }
 
 .hero-title {
-    color: white;
     margin-left: 20px;
+    font-size: 50px;
+
+    h1 {
+        background: -webkit-linear-gradient(rgb(12, 241, 23), rgb(205, 241, 226));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 .carousel-section {

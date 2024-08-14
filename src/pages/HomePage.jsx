@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
+import CreativeSection from '../components/CreativeSection'
 
 function HomePage() {
   
@@ -11,6 +12,7 @@ function HomePage() {
     <div>
         <Navbar />
         <Hero />
+        <CreativeSection />
     </div>
   )
 }

@@ -8,20 +8,19 @@ const Navbar = () => {
     <>
       <div className='nav-container'>
        <nav className='header-title'>
-        <Link>
-        <img src={logo} alt="Logo Image" className='logo-image' />
-        <h1 className='logo'></h1>
+        <Link className="nav-logo-link">
+        <h2 className='logo'>&lt; AF &gt;</h2>
         </Link>
        </nav>
         <div className='link-container'>
         <Link className="nav-links">
-          <h3>About</h3>
+          <h2>About</h2>
         </Link>
         <Link className="nav-links">
-          <h3>Portfolio</h3>
+          <h2>Portfolio</h2>
         </Link>
         <Link className="nav-links">
-          <h3>Resume</h3>
+          <h2>Resume</h2>
         </Link>
         </div>
       </div>
